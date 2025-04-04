@@ -6,13 +6,14 @@
 - [Requirements and Features](#requirements-and-features)
 - [Directory Structure](#directory-structure)
 - [Guide](#guide)
-  - [Algorithmic Flow](#algorithmic-flow)
+  - [Abstract](#abstract)
   - [Results](#results)
     - [Staircase](#staircase)
     - [Maze](#maze)
     - [Spiral](#spiral)
     - [Simple](#simple)
     - [Complex](#complex)
+  - [More](#more)
 
 
 
@@ -51,9 +52,7 @@
 
 ## Guide
 
-> 本仓库包括源代码和详细文档，您可以通过阅读  [detail.pdf](detail.pdf) 了解算法的详细设计、原理和实验。
-
-### Algorithmic Flow
+### Abstract
 <p align = "center">    
   <img src="./img/BRAstar算法流程.png"  align="middle"  width="600" />
 </p>
@@ -171,3 +170,7 @@
 | Bidirectional  A* | 16       | 234        | 22       | 73.2%    | 41       |
 | ARA*              | 7        | 66         | 15       | 78.0%    | 41       |
 | BRA*              | 24       | 456        | 12       | 20.8%    | 48       |
+
+### More
+
+本仓库包括源代码和详细文档，您可以通过阅读  [detail.pdf](detail.pdf) 了解算法的详细设计、原理和实验。
